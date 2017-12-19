@@ -1,0 +1,43 @@
+{
+  "name": "choose-the-food",
+  "version": "0.0.0",
+  "description": "which food do you like",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server",
+    "build": "cross-env NODE_ENV=production webpack --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wlsgussla123/choose-the-food.git"
+  },
+  "author": "Jinhyeon Park <wlsgussla123@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wlsgussla123/choose-the-food/issues"
+  },
+  "homepage": "https://github.com/wlsgussla123/choose-the-food#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-minify-webpack-plugin": "^0.2.0",
+    "babel-preset-env": "^1.6.1",
+    "config": "^1.28.1",
+    "cross-env": "^5.1.1",
+    "css-loader": "^0.28.7",
+    "eslint": "^4.13.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-import-resolver-webpack": "^0.8.3",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-import": "^2.8.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-webpack-plugin": "^2.30.1",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  },
+  "dependencies": {}
+}
